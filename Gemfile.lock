@@ -180,8 +180,6 @@ GEM
     rack (2.2.3)
     rack-contrib (2.3.0)
       rack (~> 2.0)
-    rack-proxy (0.6.5)
-      rack
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails (6.0.3.7)
@@ -263,13 +261,14 @@ GEM
     sawyer (0.8.2)
       addressable (>= 2.3.5)
       faraday (> 0.8, < 2.0)
-    semantic_range (3.0.0)
     sentry-raven (3.1.2)
       faraday (>= 1.0)
     sidekiq (6.2.1)
       connection_pool (>= 2.2.2)
       rack (~> 2.0)
       redis (>= 4.2.0)
+    simpacker (1.2.0)
+      railties (>= 4.2)
     sprockets (4.0.2)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
@@ -284,11 +283,6 @@ GEM
     tilt (2.0.10)
     tzinfo (1.2.9)
       thread_safe (~> 0.1)
-    webpacker (5.4.0)
-      activesupport (>= 5.2)
-      rack-proxy (>= 0.6.1)
-      railties (>= 5.2)
-      semantic_range (>= 2.3.0)
     websocket-driver (0.7.3)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
@@ -325,7 +319,7 @@ DEPENDENCIES
   rspec-rails
   sentry-raven
   sidekiq
-  webpacker (>= 4.2.0)
+  simpacker
 
 BUNDLED WITH
    2.1.4

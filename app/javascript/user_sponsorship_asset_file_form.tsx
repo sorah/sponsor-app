@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 
 import SponsorshipAssetFileForm from './SponsorshipAssetFileForm';
 
-document.addEventListener("DOMContentLoaded", () => {
+export const doUserSponsorshipAssetFileForm = () => {
   document.querySelectorAll('.sponsorships_form').forEach((formElem) => {
     const form = formElem as HTMLFormElement;
     const errorElem = form.querySelector('.submit_error') as HTMLDivElement;
@@ -50,5 +50,5 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
   });
-});
+};
 

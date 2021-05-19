@@ -1,12 +1,10 @@
-import 'bootstrap/dist/css/bootstrap';
-import 'font-awesome/css/font-awesome';
-
-import 'raven';
-
 import 'bootstrap';
+import '@fortawesome/fontawesome-svg-core';
+
+import '../raven'
 
 import Rails from '@rails/ujs';
 Rails.start();
 
-import 'reception_checkin_form';
-import 'reception_checkin_button';
+import '../reception_checkin_form';
+import '../reception_checkin_button';

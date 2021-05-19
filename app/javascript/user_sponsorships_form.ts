@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+export const doUserSponsorshipsForm = () => {
   document.querySelectorAll('.sponsorships_form').forEach((formElem) => {
     formElem.querySelectorAll('select.sponsorship_id_to_copy_selector').forEach((elem_) => {
       const elem = elem_ as HTMLSelectElement;
@@ -94,4 +94,4 @@ document.addEventListener('DOMContentLoaded', () => {
       }); 
     }); 
   });
-});
+};
